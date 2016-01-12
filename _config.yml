@@ -10,9 +10,9 @@ menu:
 subnav:
   # RSS plugin: https://github.com/hexojs/hexo-generator-feed
   # Encrypt email 加密邮件地址 http://tool.chacuo.net/commonhideinfo
-  Email: "mailto:123@123.com"
-  #新浪微博: "sina weibo"
-  GitHub: "#"
+  Email: "mailto:692071586@qq.com"
+  新浪微博: "http://weibo.com/u/2509315840"
+  GitHub: "https://github.com/feyy"
   #V2EX: "#"
   RSS: "/atom.xml"
   #知乎: "zhihu"
@@ -22,7 +22,7 @@ subnav:
   #Twitter: "#"
   #LinkedIn: "#"
   #QQ: "#"
-  #微信: "Wechat"
+  #微信: "#"
   #PayPal: "#"
   #StackOverflow: "#"
   #Instagram: "#"
@@ -71,8 +71,8 @@ disqus:
   # you have set "disqus_shortname" in your site's "_config.yml" 
 
 duoshuo: 
-  #on: true
-  domain: 
+  on: true
+  domain: feyy
   # 是否开启多说评论，http://duoshuo.com/create-site/
   # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名
   # http://你的多说域名.duoshuo.com
@@ -91,18 +91,18 @@ tagcloud: true
 
 #是否开启友情链接
 #不开启——
-#friends: false
+friends: false
 #开启——
-friends:
-  Hexo: https://hexo.io
-  GitHub: https://pages.github.com/
-  MOxFIVE: http://moxfive.xyz/
+# friends:
+#   Hexo: https://hexo.io
+#   GitHub: https://pages.github.com/
+#   MOxFIVE: http://moxfive.xyz/
 
 #是否开启“关于我”。
 #不开启——
 #aboutme: false
 #开启——
-aboutme: 专注于前端
+aboutme: 专注于前端。生命不息，奋斗不止！
 
 #是否显示边栏中的搜索框 
 #Search Box in left column
@@ -110,8 +110,8 @@ aboutme: 专注于前端
 
 #Site Verification for Google and Baidu. HTML label content.
 #百度、谷歌站长验证。填写 HTML 标签 content
-baidu_site: 
-google_site: 
+baidu_site: k3BdAqeRA0
+google_site: fvJiksyMy4KGkhEAvfZwHPfO22g5r8OQVUi-DT1HlKw
 
 #Keep TOC title on the same line.
 #目录中标题不换行
@@ -120,9 +120,9 @@ google_site:
 # >>> Style Customisation 样式自定义 <<<
 
 highlight_style:
-  #on: true
-  inline_code: 1  # Value: 0 - 9 可用
-  code_block: 1  # Value: 0 - 4 
+  on: true
+  inline_code: 9  # Value: 0 - 9 可用
+  code_block: 4  # Value: 0 - 4 
   # Set inline_code to style highlight text
   # Chose a highlight theme for code block
   # 通过 inline_code 切换内置文本高亮样式
