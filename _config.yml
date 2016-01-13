@@ -51,10 +51,10 @@ open_in_new: false
 
 # Miscellaneous
 #google_analytics: ''
-favicon: /favicon.png
+favicon: /uploads/favicon.ico
 
 #你的头像url
-avatar: /img/avatar.png
+avatar: /uploads/photo.png
 
 #是否开启分享
 share: true
