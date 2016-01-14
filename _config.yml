@@ -4,7 +4,7 @@ menu:
   所有文章: /archives/
   # 随笔: /tags/随笔
   标签云: /tags/
-  关于我: /about/
+  #关于我: /about/
 
 # SubNav
 subnav:
@@ -121,7 +121,7 @@ google_site: fvJiksyMy4KGkhEAvfZwHPfO22g5r8OQVUi-DT1HlKw
 
 highlight_style:
   on: true
-  inline_code: 9  # Value: 0 - 9 可用
+  inline_code: 8  # Value: 0 - 9 可用
   code_block: 4  # Value: 0 - 4 
   # Set inline_code to style highlight text
   # Chose a highlight theme for code block
