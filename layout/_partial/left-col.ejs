@@ -17,7 +17,11 @@
         <p class="header-subtitle"><%=theme.subtitle%></p>
         <%}%>
         <% if (theme.search_box){ %>
-        <form><input type="text" class="search" placeholder=" Search..."></form>
+            <form action="/search/">
+                <input type="text" name='q' id="bdcsMain" class="search" placeholder=" Search...">
+                <input type="hidden" name='s' value="17025174479614445173">
+                <input type="hidden" name='entry' value="1">
+            </form>
         <%}%>        
 
 
