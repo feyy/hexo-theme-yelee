@@ -42,6 +42,7 @@
         opacity:1;
         transition:all .2s ease-in;
         height:100%;
+        z-index: 1;
 
         .overlay{
             width: 100%;
@@ -370,6 +371,8 @@
 }
 
 .search {
+    position: relative;
+    display: inline-block;
     width: 68%;
     height: 24px;
     margin-top: 1px;
@@ -379,11 +382,67 @@
     border: 2px solid #ccc;
     border-radius: 2px;
     background: none;
+    text-align: left;
+
     &:hover {
         border: 2px solid lightgray;
         opacity: 1;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     };
+    
+    .gsc-control-cse,
+    .gsc-control-wrapper-cse,
+    .gsc-search-box * {
+        width: 0!important;
+        height: 0!important;
+        padding: 0!important;
+        border: 0!important;
+    }
+
+    .gsst_a {
+        position: absolute;
+        top: 6px;
+        right: 20px;
+    }
+
+    .gsc-input {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%!important;
+        height: 100%!important;
+        box-sizing: border-box;
+        padding-left: 10px!important;
+        padding-right: 20px!important;
+        background: transparent!important;
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    a {
+        color: #1A0DAB!important;
+        font-size: 1.2em!important;
+        text-decoration: none!important;
+
+        &:hover {
+            text-decoration: underline!important;
+        }
+    }
+
+    .gs-result .gs-title * {
+        text-decoration: none;
+    }
+
+    .gs-bidi-start-align {
+        line-height: 1.4!important;
+    }
+    
+    @media screen and (min-width:600px) {
+        .gsc-results-wrapper-overlay {
+            left: 50%;
+            max-width: 512px;
+            margin-left: -256px;
+        }
+    }
 }
 
 #scroll{

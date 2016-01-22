@@ -112,6 +112,7 @@ search_box: true
 #百度、谷歌站长验证。填写 HTML 标签 content
 baidu_site: k3BdAqeRA0
 google_site: fvJiksyMy4KGkhEAvfZwHPfO22g5r8OQVUi-DT1HlKw
+haosou_site: 4c1f3548c8bb1c82af9f3ffa7815a6ba
 
 #Keep TOC title on the same line.
 #目录中标题不换行

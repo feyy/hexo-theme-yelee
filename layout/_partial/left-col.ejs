@@ -17,11 +17,32 @@
         <p class="header-subtitle"><%=theme.subtitle%></p>
         <%}%>
         <% if (theme.search_box){ %>
-            <form action="/search/">
-                <input type="text" name='q' id="bdcsMain" class="search" placeholder=" Search...">
-                <input type="hidden" name='s' value="17025174479614445173">
-                <input type="hidden" name='entry' value="1">
-            </form>
+            <div class="search">
+                <script>
+                  (function() {
+                    var cx = '000701910795822237800:b-rmwbidat0';
+                    var gcse = document.createElement('script');
+                    gcse.type = 'text/javascript';
+                    gcse.async = true;
+                    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                        '//cse.google.com/cse.js?cx=' + cx;
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(gcse, s);
+                    
+                    var timerCount = 0;
+                    (function addPlaceholder() {
+                        var gscInput = document.querySelector('#gsc-i-id1');
+                        if (gscInput) {
+                            gscInput.setAttribute('placeholder', 'search ...')
+                        } else if (++timerCount < 20) {
+                            setTimeout(addPlaceholder, 500);
+                        }
+                    })();
+
+                  })();
+                </script>
+                <gcse:search></gcse:search>
+            </div>
         <%}%>        
 
 
