@@ -63,15 +63,15 @@ share: true
 # Chose ONE as your comment system and keep others disable.
 # 选一个作为网站评论系统，其他保持禁用。
 
-disqus: 
+disqus:
   #on: true
-  shortname: 
+  shortname:
   # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
-  # It is unnecessary to enable disqus here if 
-  # you have set "disqus_shortname" in your site's "_config.yml" 
+  # It is unnecessary to enable disqus here if
+  # you have set "disqus_shortname" in your site's "_config.yml"
 
-duoshuo: 
-  on: true
+duoshuo:
+  #on: true
   domain: feyy
   # 是否开启多说评论，http://duoshuo.com/create-site/
   # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名
@@ -79,7 +79,7 @@ duoshuo:
 
 youyan:
   #on: true
-  id: 
+  id:
   # 是否开启友言评论，http://www.uyan.cc/index.php
   # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
   # 友言服务在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
@@ -104,7 +104,7 @@ friends: false
 #开启——
 aboutme: 专注于前端。生命不息，奋斗不止！
 
-#是否显示边栏中的搜索框 
+#是否显示边栏中的搜索框
 #Search Box in left column
 search_box: true
 
@@ -123,7 +123,7 @@ haosou_site: 4c1f3548c8bb1c82af9f3ffa7815a6ba
 highlight_style:
   on: true
   inline_code: 8  # Value: 0 - 9 可用
-  code_block: 4  # Value: 0 - 4 
+  code_block: 4  # Value: 0 - 4
   # Set inline_code to style highlight text
   # Chose a highlight theme for code block
   # 通过 inline_code 切换内置文本高亮样式

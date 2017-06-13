@@ -64,6 +64,10 @@
 <% } %>
 
 <% if (!index && post.comments){ %>
+    <div id="gitment-container" style="margin: 0 30px;"></div>
+<% } %>
+
+<% if (!index && post.comments){ %>
     <% if (theme.duoshuo.on) { %>
       <%- partial('comments/duoshuo', {
           key: post.path,
